@@ -8,9 +8,11 @@ It is the project which provides REST API to fetch and filter Pokemon list , the
    ```git bash
    git clone https://github.com/Adityakafle/Pokemon_FastAPI.git
 2. **Install dependencies**
-   pip install -r requirements.txt
+    ```git bash
+    pip install -r requirements.txt
 
 3. **Run the FASTAPI server**
+    ```git bash
    uvicorn app.main:app --reload
 
 4. **Accessing the API**
