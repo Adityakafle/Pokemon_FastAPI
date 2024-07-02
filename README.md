@@ -11,11 +11,18 @@ It is the project which provides REST API to fetch and filter Pokemon list , the
     ```git bash
     pip install -r requirements.txt
 
-3. **Run the FASTAPI server**
+4. **Set Up POSTGRESQL**
+
+   Install PostgreSQL and Create a new database and Update the database connection URL in pokemon_api/.env,  change username and password there to connect with postgresql server.
+
+5. **Run the FASTAPI server**
     ```git bash
    uvicorn app.main:app --reload
 
-4. **Accessing the API:**
+ 
+ 
+
+5. **Accessing the API:**
 
    You can open any browser and enter the link :  http://127.0.0.1:8000/docs to interact with API , you can also send the parameters type and name with the endpoint.
 
