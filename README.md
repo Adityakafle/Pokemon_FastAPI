@@ -1,6 +1,6 @@
 # Pokemon API Project
 
-It is the project which provides REST API to fetch and filter Pokemon list , their name , type
+It is the project which provides REST API to fetch and filter Pokemon list , their name and type.
 
 ## Setup Instructions
 
