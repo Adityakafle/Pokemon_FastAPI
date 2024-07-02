@@ -15,7 +15,8 @@ It is the project which provides REST API to fetch and filter Pokemon list , the
     ```git bash
    uvicorn app.main:app --reload
 
-4. **Accessing the API**
+4. **Accessing the API:**
+
    You can open any browser and enter the link :  http://127.0.0.1:8000/docs to interact with API , you can also send the parameters type and name with the endpoint.
 
    To see list of pokemons with their name, image and type hit the endpoint /api/v#/pokemons or enter the link: http://127.0.0.1:8000/api/v1/pokemons
